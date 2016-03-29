@@ -1,6 +1,15 @@
 // a empty user list
 var users = [];
 
+users.push(
+	{ first_name: 'Jack', last_name: 'Bradshaw!' }, 
+	{ first_name: 'Callum',last_name: 'Bradshaw!'},
+	{ first_name: 'Neil', last_name: 'Bradshaw!'});
+
+users.forEach(function(user) {
+  console.log('Hi, ' + user.first_name + " " + user.last_name );
+});
+
 //create 3 users in the users array
 //using code like this: users.push({ first_name : 'Andy', last_name : 'Bradshaw' });
 
